@@ -28,8 +28,8 @@ int main()
     vector<string>listB;
     vector<string>listC;
 
-    ifstream myfile("/Users/sashamalesevic/code/myfile.txt");
-    ifstream qfile("/Users/sashamalesevic/code/qfile.txt");
+    ifstream myfile("/Desktop/myfile.txt");
+    ifstream qfile("/Desktop/qfile.txt");
 
     while (getline(myfile, line)){
         listA.push_back(line);
